@@ -10,6 +10,10 @@ if ( ! function_exists( 'init_setup' ) ) :
      */
     function init_setup() {
         require get_template_directory() . '/includes/navwalker.php';
+        require get_template_directory() . '/includes/widget.php';
+        require get_template_directory() . '/includes/options.php';
+
+        add_filter('show_admin_bar', '__return_false');
         /**
          * Make theme available for translation.
          * Translations can be placed in the /languages/ directory.
