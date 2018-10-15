@@ -21,7 +21,7 @@
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/main.css">
 
-        <script src="<?php echo get_stylesheet_directory_uri(); ?>/css/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <!-- <script src="<?php echo get_stylesheet_directory_uri(); ?>/css/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script> -->
 
         <?php wp_head();?>
     </head>

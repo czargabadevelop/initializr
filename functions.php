@@ -9,7 +9,7 @@ if ( ! function_exists( 'init_setup' ) ) :
      * support post thumbnails.
      */
     function init_setup() {
-     
+        require get_template_directory() . '/includes/navwalker.php';
         /**
          * Make theme available for translation.
          * Translations can be placed in the /languages/ directory.
